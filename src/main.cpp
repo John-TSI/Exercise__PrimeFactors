@@ -31,8 +31,7 @@ int GetInput()
 	{
 		validInput = true;
 		std::cout << "\nEnter a positive integer to compute its prime factors (enter 0 to quit):\n> ";
-		std::cin >> req;
-		std::cin.clear();
+		std::cin >> req; 
 		std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 		std::cout << std::endl;
 
